@@ -1,16 +1,30 @@
-# car_rental
+# 🚀 Flutter App with Firebase, BLoC, GetIt, and Maps
 
-A new Flutter project.
+This repository contains a Flutter application built with modern tools and clean architecture principles. It leverages **Firebase** for backend services, **BLoC** for scalable state management, **GetIt** for dependency injection, and **flutter_maps** for interactive map features.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter** – Cross-platform UI toolkit  
+- **Firebase** – Backend (Authentication, Firestore, etc.)  
+- **BLoC** – State management (Business Logic Component)  
+- **GetIt** – Dependency injection  
+- **flutter_maps** – Map integration  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Dependencies
+
+Make sure to include these in your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^latest
+  firebase_auth: ^latest
+  cloud_firestore: ^latest
+  flutter_bloc: ^latest
+  get_it: ^latest
+  flutter_maps: ^latest
