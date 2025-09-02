@@ -25,7 +25,7 @@ android {
         applicationId = "com.example.car_rental"
 
         // 🔹 Firebase requires at least minSdk 23
-        minSdk = 23
+        minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
 
         versionCode = flutter.versionCode
